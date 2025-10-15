@@ -8,13 +8,13 @@ int main()
 	int n;
 	char sair = 'n';
 	string disc[9] = { "mat","pt", "fq","tlp","ing","acso","artes","AI","Ev" };
-	string profs[9] = { "ana","isabel", "carla","tota","joao","chato","sono","dormir", "lidia"};
+	string profs[9] = { "ana","isabel", "luke","tota","anakin","chato","sono","dormir", "lidia"};
 
 	do {
 		cout << "disciplina.\n";
 		cin >> n;
 
-		cout << "a professora da disciplina " << disc[n] << " é " << profs[n] << "\n";
+		cout << "a professora da disciplina " << disc[n] << " Ã© " << profs[n] << "\n";
 
 		cout << "deseja perguntar outro?\n";
 		cin >> sair;
@@ -24,3 +24,4 @@ int main()
 	return 0;
 }
 	
+
