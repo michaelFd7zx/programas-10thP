@@ -20,7 +20,7 @@ int main()
 
 for (i = 0; i < 5; i++)
 	{
-	chave[i] = rand() % 49 + 1;
+	chave[i] = rand() % 50 + 1;
 	totalc = chave[i];
 	cout << chave[i]<<"\n";
 	//calculo
@@ -45,7 +45,7 @@ for (i = 0; i < 5; i++)
 	for (i = 0; i < 5; i++)
 
 	{
-		cout << "diga o " << i + 1 << "บ numero.\n";
+		cout << "diga o " << i + 1 << "ยบ numero.\n";
 
 		cin >> num[i];
 		
@@ -75,6 +75,7 @@ for (i = 0; i < 5; i++)
 
 
 	return 0;
+
 
 }
 	
