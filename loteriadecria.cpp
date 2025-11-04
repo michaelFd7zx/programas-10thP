@@ -20,10 +20,14 @@ int main()
 
 for (i = 0; i < 5; i++)
 	{
-	totalc = rand() % 49 + 1;
-	chave[i] = totalc;
+	chave[i] = rand() % 49 + 1;
+	totalc = chave[i];
 	cout << chave[i]<<"\n";
+	//calculo
+
 }
+
+
 
 		if (chave[i] > chave[i + 1])
 
@@ -55,16 +59,15 @@ for (i = 0; i < 5; i++)
 
 	}
 	// dizer os numeros certos
-	for (i = 0; i < 5; i++)
 	{
 
 		if (chave[i] == num[i])
 		{
-			cout << "voce acertou "<< i + 1<<" numeros\n";
+			cout << "voce acertou "<<i<<" numeros\n";
 		}
 		if (chave[i] != num[i])
 		{
-			cout << "voce errou " << i + 1 << " numeros\n";
+			cout << "voce errou " << i<< " numeros\n";
 		}
 
 	}
